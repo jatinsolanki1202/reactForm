@@ -23,7 +23,7 @@ function LoginForm() {
           <form onSubmit={submitForm} action="" className="flex flex-col gap-2 justify-center items-center p-3 rounded-md">
             <h1 className="text-[24px]">Login Form</h1>
             <input onChange={handleName} value={name} type="text" className="box-border rounded-md w-[90%] text-lg px-3 py-2 focus:border-[0]" placeholder="Username" required/>
-            <input onChange={handlePassword} value={pass} type="password" className="box-border rounded-md w-[90%] text-lg px-3 py-2 focus:border-[0]" placeholder="Password" required/>
+            <input onChange={handlePassword} value={pass} type="password" className="box-border rounded-md w-[90%] text-lg px-3 py-2 focus:border-[0]" placeholder="enter Password" required/>
             <input type="submit" value="submit" className="bg-white p-2 w-[60%] rounded-md"/>
           </form>
         </div>
